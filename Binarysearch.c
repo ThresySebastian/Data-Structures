@@ -12,9 +12,9 @@ void main()
 	c++;
 	for( i=0;i<n;i++)
 	{
-	c++;		
-	scanf("%d",&a[i]);
-	c++;
+		c++;		
+		scanf("%d",&a[i]);
+		c++;
 	}
 	printf("Enter the number to search");
 	c++;
@@ -50,9 +50,10 @@ void main()
 		c++;
 	}
 	else if(flag==1)
-	{c++;
-	printf("Element found \n");
-	c++;
+	{
+		c++;
+		printf("Element found \n");
+		c++;
 	}
 	printf("Space complexity=%d\n",(4*n)+32);
 	c++;
