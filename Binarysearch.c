@@ -35,7 +35,7 @@ void main()
 		}
 		else if(x>a[mid])
 		{
-			right=mid+1;
+			left=mid+1;
 			c++;
 		}
 		else if (x<a[mid])
