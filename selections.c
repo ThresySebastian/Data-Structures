@@ -48,11 +48,12 @@ void main()
 	i=0;
 	c++;
 	for(i=0;i<n;i++)
-	{c++;
-	 printf("%d\n",a[i]);
-	 c++;
-	 }
-	 printf("Space complexity=%d\n",(4*n)+24);
+	{
+	 	 c++;
+	 	printf("%d\n",a[i]);
+		 c++;
+        }
+	printf("Space complexity=%d\n",(4*n)+24);
 	c++;
 	c++;
 	printf("Time complexity=%d\n",c);
